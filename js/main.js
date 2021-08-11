@@ -14,3 +14,10 @@ searchInputEl.addEventListener('blur', function () {
     searchEl.classList.remove('focused');
     searchInputEl.setAttribute('placeholder', '');
 });
+
+
+const badgeEl = docuement.querySelector("header .badges");
+
+window.addEventListener('scroll', function () {
+    
+});
