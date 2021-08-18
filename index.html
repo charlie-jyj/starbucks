@@ -29,6 +29,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css"/>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- 지연 스크립트는 HTML 파싱을 멈추지 않고 페이지 구성이 끝날 때 까지 지연된다.  -->
     <script defer src="./js/main.js"></script>
 
@@ -375,5 +377,41 @@
             </div>
         </div>
     </header>
+
+
+    <!-- VISUAL -->
+    <section class="visual">
+        <div class="inner">
+
+            <div class="title fade-in">
+                <img src="./images/visual_title.png" alt="starbucks delightful start to the years"/>
+                <a href="javascript:void(0)" class="btn btn--brown">자세히 보기</a>
+            </div>
+            <div class="fade-in">
+                <img src="./images/visual_cup1.png" alt="new oatmeal latte" class="cup1 image"/>
+                <img src="./images/visual_cup1_text.png" alt="오트밀 라떼" class="cup1 text"/>  
+            </div>
+            <div class="fade-in">
+                <img src="./images/visual_cup2.png" alt="new starvucks caramel crumble moca" class="cup2 image"/>
+                <img src="./images/visual_cup2_text.png" alt="스타벅스 카라멜 크럼블 모카" class="cup2 text"/>  
+            </div>
+            <div class="fade-in">
+                <img src="./images/visual_spoon.png" alt="spoon" class="spoon"/>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- NOTICE -->
+    <section class="notice">
+        <div class="notice-line">
+            <div class="bg-left"></div>
+            <div class="bg-right"></div>
+            <div class="inner">
+                <div class="inner__left"></div>
+                <div class="inner__right"></div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
