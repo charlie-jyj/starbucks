@@ -48,3 +48,11 @@ fadeEls.forEach(function (fadeEl, index) {
         delay: (index+1)*.7,
     })
 });
+
+
+//swiper
+new Swiper(".notice-line .swiper-container", {
+    direction: 'vertical',
+    autoplay: true,
+    loop: true,
+});
