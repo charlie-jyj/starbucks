@@ -56,3 +56,22 @@ new Swiper(".notice-line .swiper-container", {
     autoplay: true,
     loop: true,
 });
+
+new Swiper(".promotion .swiper-container", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+        delay: 5000
+    },
+    pagination: {
+        el: '.promotion .swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        prevEl: '.promotion .swiper-prev',
+        nextEl: '.promotion .swiper-next',
+    }
+});
+
