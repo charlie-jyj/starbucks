@@ -33,8 +33,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <!-- swiperjs -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
 
     <!-- 지연 스크립트는 HTML 파싱을 멈추지 않고 페이지 구성이 끝날 때 까지 지연된다.  -->
     <script defer src="./js/main.js"></script>
@@ -469,9 +469,12 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination">
-                <div class="swiper-prev"></div>
-                <div class="swiper-next"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-prev">
+                <div class="material-icons">arrow_back</div>
+            </div>
+            <div class="swiper-next">
+                <div class="material-icons">arrow_forward</div>
             </div>
         </div>
     </section>
